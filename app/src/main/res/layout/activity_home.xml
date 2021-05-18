@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:textStyle="bold"
+        android:text="Basic Banking App\nBy: Akhil S George"
+        android:fontFamily="@font/vogue"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:textSize="25dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:textStyle="bold"
+        android:text="Grips @ The Sparks Foundation"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:layout_marginRight="@dimen/_5sdp"
+        android:textAlignment="center"
+        android:textColor="#070707"
+        android:fontFamily="@font/vogue"
+        android:textSize="20dp"
+        />
+   <ImageView
+        android:layout_width="180.00dp"
+        android:layout_height="180.00dp"
+        android:layout_marginTop="10.00dp"
+        android:layout_marginRight="5.00dp"
+        android:src="@drawable/download"
+       ></ImageView>
+
+    <Button
+        android:id="@+id/button_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#090909"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Begin"
+        android:textAlignment="center"
+        android:textColor="#ECE5E5" />
+
+</LinearLayout>

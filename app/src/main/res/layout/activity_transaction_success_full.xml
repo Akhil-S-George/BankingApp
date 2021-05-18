@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2F4F3F3"
+    android:foregroundTint="#FFFFFF"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".TransactionSuccessFull">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:textStyle="bold"
+        android:text="Transaction Successful"
+        android:textAlignment="center"
+        android:textColor="#0A0B0A"
+        android:fontFamily="@font/vogue"
+        android:textSize="25dp"
+         />
+
+    <pl.droidsonroids.gif.GifImageButton
+        android:layout_width="150.00dp"
+        android:layout_height="150.00dp"
+        android:layout_marginTop="10.00dp"
+        android:src="@drawable/successfull"
+        ></pl.droidsonroids.gif.GifImageButton>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:clickable="false"
+        android:textStyle="bold"
+        android:text="THANK YOU"
+        android:textAlignment="center"
+        android:textColor="#090909"
+        android:fontFamily="@font/vogue"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/button_back_to_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0E0E0E"
+        android:text="RETURN"
+        android:textAlignment="center"
+        android:textColor="#F6F2F2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="341dp" />
+
+
+</LinearLayout>
